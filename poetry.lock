@@ -59,7 +59,7 @@ pycodestyle = ">=2.5.0,<2.6.0"
 pyflakes = ">=2.1.0,<2.2.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Let your Python tests travel through time"
 name = "freezegun"
 optional = false
@@ -163,7 +163,7 @@ isort = ">=4.2.5,<5"
 mccabe = ">=0.6,<0.7"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Extensions to the standard Python datetime module"
 name = "python-dateutil"
 optional = false
@@ -207,7 +207,7 @@ six = "*"
 tests = ["coverage (>=3.7.1,<5.0.0)", "pytest-cov", "pytest-localserver", "flake8", "pytest (>=4.6,<5.0)", "pytest"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Python 2 and 3 compatibility utilities"
 name = "six"
 optional = false
@@ -252,7 +252,7 @@ python-versions = "*"
 version = "1.11.2"
 
 [metadata]
-content-hash = "4dac2a8fa3c6ba3b541ab90f59b01661c71895edb58aadbeddf22548e31392ea"
+content-hash = "437b4d94a726cc83c372b730a926f25b7128929c0de1f2333c5cf10fa665b6ab"
 python-versions = "^3.8"
 
 [metadata.files]
