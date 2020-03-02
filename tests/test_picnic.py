@@ -16,9 +16,7 @@ class TestPicnic(unittest.TestCase):
         mock_request.return_value.json.return_value = {
             '天気': '晴れ'
         }
-        actual = src.picnic.go_picnic(1050004)
-        expected = True
-        self.assertEqual(expected, actual)
+        self.assertTrue(src.picnic.go_picnic(1050004))
 
 
 class TestPicnicWithResponses(unittest.TestCase):
@@ -29,6 +27,4 @@ class TestPicnicWithResponses(unittest.TestCase):
             'https://tenki.example.com/today/1050004',
             json={'天気': '晴れ'},
             status=200)
-        actual = src.picnic.go_picnic(1050004)
-        expected = True
-        self.assertEqual(expected, actual)
+        self.assertTrue(src.picnic.go_picnic(1050004))
