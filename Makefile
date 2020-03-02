@@ -8,7 +8,7 @@ flake8:
 
 .PHONY: test
 test:
-	python -m unittest
+	poetry run python -m unittest
 
 .PHONY: test-all
 test-all:
